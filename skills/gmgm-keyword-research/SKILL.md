@@ -461,9 +461,9 @@ RED_FILL = PatternFill("solid", start_color="FFC7CE")
 - Set column widths: auto-fit or minimum 15, maximum 50.
 - Freeze top row on every sheet (`sheet.freeze_panes = "A2"`).
 - Use Excel formulas for all calculated values (e.g. opportunity scores via `=SUMPRODUCT()`).
-- Run `scripts/recalc.py` after saving to recalculate all formulas.
+- Run `scripts/recalc.py` after saving to recalculate all formulas. This script is optional and environment-specific — skip it if not present. SUMPRODUCT formulas written by openpyxl are correct on save and will recalculate automatically when opened in Excel or Google Sheets.
 - Verify zero formula errors before presenting the file.
-- Save to `/mnt/user-data/outputs/[filename]`.
+- Save path is environment-specific: use `/mnt/user-data/outputs/[filename]` in sandboxed cloud environments. On macOS or a local environment, save to the active project directory (e.g. the working directory of the current session) or `~/Downloads/` as a fallback.
 
 ---
 
