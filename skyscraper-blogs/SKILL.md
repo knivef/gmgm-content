@@ -69,7 +69,7 @@ When citing volume, growth, or market size figures, clarify what the number incl
 
 Apply Google's AI optimization guide to every article:
 - Open with a direct declarative answer in the first paragraph
-- Include a dedicated FAQ section with quotable one-sentence answers
+- Include a dedicated FAQ section with quotable one-sentence answers; mark each question as an H3 heading so individual questions can rank independently in search
 - Embed E-E-A-T signals throughout: specific dates, named sources, and verified claims
 
 ## Internal Links
@@ -98,3 +98,4 @@ External sources used:
 
 [Article body]
 ```
+
