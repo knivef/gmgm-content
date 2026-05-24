@@ -1,6 +1,6 @@
 ---
 name: gmgm-keyword-research
-version: 2.0.0
+version: 2.1.0
 description: >
   Run this skill whenever GMGM News needs keyword research before writing any article.
   Use it to build a data-grounded keyword strategy across crypto, stablecoins, blockchain,
@@ -23,20 +23,20 @@ description: >
 
 # GMGM News — Keyword Research Skill
 
-GMGM News is a new crypto/blockchain/payments media website. Your job is to find
-long-tail keywords it can realistically rank for in its first 90 days. A new domain has
-zero authority, so the strategy is clear: go narrow, go specific, and win the searches
-that established players ignore.
+GMGM News is a new media website covering crypto, blockchain, payments, and standalone
+health and wellness topics. Your job is to find long-tail keywords it can realistically
+rank for in its first 90 days. A new domain has zero authority, so the strategy is clear:
+go narrow, go specific, and win the searches that established players ignore.
 
 ---
 
 ## Site Context
 
 - **Publication**: GMGM News (new domain, no authority yet)
-- **Category**: Crypto, stablecoin, blockchain, and payments news and analysis
+- **Category**: Crypto, stablecoin, blockchain, payments, and standalone health and wellness
 - **Audience**: Broad tech-savvy readers — retail investors, crypto enthusiasts, Web3
-  builders, finance and payments professionals
-- **Content pillars**: Stablecoins & payments | Cryptocurrency | Blockchain | Regulation & policy
+  builders, finance and payments professionals, and health-conscious general readers
+- **Content pillars**: Stablecoins & payments | Cryptocurrency | Blockchain | Regulation & policy | Health & wellness (standalone topics; not required to connect to crypto)
 - **SEO goal**: Build topical authority through rankable content in the first 30–90 days
 
 ---
@@ -109,6 +109,7 @@ Identify the people behind the searches. For GMGM News, common segments include:
 - Payments and fintech professionals researching settlement, remittances, or rails
 - Policy-aware readers searching regulation, enforcement, tax, or compliance changes
 - News-followers trying to understand a recent event
+- Health-conscious general readers researching supplements, treatments, or wellness topics (for health pillar articles)
 
 Tag each keyword with the likely audience segment. Favor segments that match GMGM's
 media and newsletter audience.
@@ -516,3 +517,8 @@ RED_FILL = PatternFill("solid", start_color="FFC7CE")
 *This section grows as GMGM News publishes and collects ranking data. Each lesson
 represents a real calibration based on observed search performance. Apply all lessons
 when running new research — they override the defaults where they conflict.*
+
+**Health and wellness keywords (May 2026 — "what are peptides" skyscraper)**
+- High-authority health publishers (WebMD, Healthline, Medical News Today) dominate head terms but most articles are under 2,500 words, have no comparison tables, and go stale quickly as regulations change. Freshness plus structured tables is the consistent gap.
+- For supplement or therapy topics, the 2026 FDA regulatory update angle is a strong differentiator: most competitor evergreen pages predate recent policy changes and cannot rank for news-adjacent queries without a rewrite.
+- Competitor pages in health rarely combine: plain-English definition + side-by-side comparison table + bioavailability caveats + updated regulatory status + FAQ optimised for AI Overview citation. Any article that does all five simultaneously has a strong structural advantage.
