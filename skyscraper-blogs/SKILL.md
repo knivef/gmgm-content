@@ -56,6 +56,7 @@ The confirmed page order for every skyscraper is:
 - Explain mechanics, risks, and regulation plainly.
 - Use specific dates for legislation, events, and announcements.
 - Add internal links to supporting short-form explainers, but only to pages that already exist. See Internal Links rules below.
+- **Supplement and nutraceutical evidence:** For any supplement category backed by a meta-analysis, always report all three: (1) the pooled result, (2) whether effects held in independent (non-industry-funded) studies, and (3) whether high-quality studies showed the same result as lower-quality ones. Omitting items 2 and 3 produces technically accurate but misleading copy.
 
 ## Copy Style
 
@@ -70,6 +71,24 @@ The confirmed page order for every skyscraper is:
 - AI drafts routinely carry stale or slightly wrong figures. Treat all AI-generated statistics as unverified until confirmed.
 - For any multilateral project (BIS initiatives, cross-border platforms, joint central bank programmes), fetch the official project page to verify the exact participant list. News summaries frequently omit participants or conflate institutions — for example, writing "ECB" when the correct participant is "Banque de France representing the Eurosystem."
 - When a national institution participates on behalf of a supranational body, name the national institution with a parenthetical: e.g. "Banque de France (representing the Eurosystem)", not "ECB".
+- **Citation integrity:** When attaching an inline hyperlink to a specific data point (dose, duration, sample size, p-value), verify the linked URL is the source for that exact data point, not a different study on the same topic. Multiple similar studies on the same subject are the most common source of citation mismatch.
+- **Geographic scope:** When citing market size, drug approval counts, regulatory figures, or statistics with a geographic qualifier, verify the source uses the same scope as the claim. "Global market" and "US FDA-approved" are not interchangeable even when the numbers appear similar.
+
+## Fact-Check Watchlist
+
+These claim types are the highest-risk for AI hallucination and must be verified against primary sources before publishing. Check these first, before anything else.
+
+**Bioavailability figures (health content)**
+AI drafts consistently overstate oral absorption percentages. Primary sources typically report less than 1 percent; AI tends to write "1 to 2 percent." Always fetch the primary pharmacology source and use its exact language.
+
+**Historical "first" claims (first drug, first synthesis, first clinical use)**
+AI frequently conflates isolation with synthesis, and confuses Nobel Prize year with first clinical use year. Example: insulin was first isolated from animal pancreas in 1921 and used clinically from January 1922, not "synthesized in a lab" and not "since 1923." Always verify against primary historical sources, not Wikipedia summaries.
+
+**Meta-analysis conclusions**
+AI leads with the pooled result and buries or omits the funding-bias and study-quality breakdown. Before writing any meta-analysis finding, check: (1) did the overall pooled result hold in non-industry-funded studies, and (2) did high-quality studies show the same result as lower-quality ones? If not, the lead sentence must reflect the more cautious finding, not the industry-funded result.
+
+**Within-group vs between-group p-values in RCTs**
+For a placebo-controlled trial, the between-group comparison (treatment vs placebo at the same time point) is the rigorous number. AI tends to cite the within-group improvement p-value (baseline vs endpoint in the treatment arm only), which is weaker evidence. Confirm which p-value is being cited before publishing.
 
 ## Skyscraper Gap Analysis
 
